@@ -1,6 +1,7 @@
 body {
   display: flex;
   justify-content: center;
+
 }
 
 .container {
@@ -8,16 +9,16 @@ body {
   padding: 10px;
   position: relative;
   font-family: 'Poor Story', cursive;
-  background-color: 0px 2px 2px rgb(176, 237, 255);
+  background-color:  rgb(204, 232, 255, 0.808);
   border-radius: 10px;
 }
 
 .icon {
   position: absolute;
-  top: 30px;
-  right: 36px;
+  top: 20px;
+  right: 20px;
   cursor: pointer;
-  background-color: rgba(239, 204, 255, 0);
+  background-color: rgba(204, 232, 255, 0.808);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -28,13 +29,13 @@ body {
 
 .icon i {
   font-size: 24px;
-  color: #f9fdbc;
+  color: #ffffff;
 }
 
 .camera {
   width: 380px;
   height: 380px;
-  background-color: 0px 2px 2px rgb(255, 243, 176);
+  background-color: rgb(255, 246, 193);
 }
 
 .name {
